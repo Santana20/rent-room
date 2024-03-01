@@ -11,9 +11,11 @@ La iniciativa de crear este software surge de la necesidad de proporcionar a los
 El conjunto de objetivos establecidos para el proyecto se enfoca en lograr una implementación exitosa de la aplicación de gestión de alquiler de habitaciones. Cada objetivo se ha delineado cuidadosamente para asegurar un desarrollo eficiente y satisfacer las necesidades tanto de los inquilinos como de los propietarios. Estos objetivos específicos son los siguientes:
 
 1. **Implementar un sistema de historial de alquiler:**
+
    - Establecer una funcionalidad que permita a los inquilinos revisar su historial de alquiler de manera detallada, incluyendo fechas, pagos realizados y cuartos ocupados, contribuyendo así a una gestión más efectiva.
 
 1. **Automatizar el proceso de generación de comprobantes:**
+
    - Facilitar a los inquilinos la generación automática de comprobantes de pago, proporcionando a su vez a los propietarios un registro detallado de transacciones para una administración financiera eficiente.
 
 1. **Establecer un Sistema de Pago Inicial a través de Códigos QR:)**
@@ -21,9 +23,10 @@ El conjunto de objetivos establecidos para el proyecto se enfoca en lograr una i
 Implementar la opción de pago mediante códigos QR (Yape o Plin), permitiendo a los inquilinos realizar transacciones de alquiler de manera eficiente y segura. Los usuarios deberán proporcionar una imagen del comprobante de pago, el cual será validado por el propietario a través de la plataforma.
 
 - Desarrollo Futuro:
-Explorar la integración de pasarelas de pago automatizado para ofrecer una solución más conveniente y ágil en fases posteriores del proyecto.
+  Explorar la integración de pasarelas de pago automatizado para ofrecer una solución más conveniente y ágil en fases posteriores del proyecto.
 
 1. **Proporcionar un Detalle Transparente del Cálculo de la Renta Final:**
+
    - Permitir a los inquilinos acceder a un desglose claro y detallado del cálculo de su renta final, incluyendo costos fijos acordados (agua y cuarto) y especificaciones detalladas del consumo eléctrico individualizado basado en medidores, asegurando transparencia y comprensión total del costo asociado al alquiler.
 
 1. **Gestionar la disponibilidad de habitaciones:**
@@ -33,11 +36,12 @@ Cada uno de estos objetivos contribuirá de manera significativa al éxito y fun
 
 **Requisitos del sistema**
 
-
 Basándome en los objetivos proporcionados, puedo ayudarte a derivar algunos requisitos para cada uno:
 
 1. **Implementar un sistema de historial de alquiler:**
+
    - **Requisitos Funcionales:**
+
      - El sistema debe permitir a los inquilinos ver un historial detallado de sus alquileres.
      - Debe mostrar información como fechas de alquiler, pagos realizados y cuartos ocupados.
      - Los inquilinos deben poder acceder a esta información de manera clara y fácil.
@@ -47,7 +51,9 @@ Basándome en los objetivos proporcionados, puedo ayudarte a derivar algunos req
      - La información debe estar actualizada en tiempo real para una gestión efectiva.
 
 2. **Automatizar el proceso de generación de comprobantes:**
+
    - **Requisitos Funcionales:**
+
      - Los inquilinos deben poder generar comprobantes de pago de manera automática desde la plataforma.
      - El sistema debe registrar de manera detallada cada transacción financiera realizada.
      - Los propietarios deben tener acceso a un registro centralizado de transacciones para administrar eficientemente las finanzas.
@@ -57,7 +63,9 @@ Basándome en los objetivos proporcionados, puedo ayudarte a derivar algunos req
      - La plataforma debe garantizar la seguridad y confidencialidad de los datos financieros.
 
 3. **Establecer un Sistema de Pago Inicial a través de Códigos QR:**
+
    - **Requisitos Funcionales:**
+
      - El sistema debe proporcionar códigos QR (Yape o Plin) para realizar transacciones de alquiler.
      - Los inquilinos deben poder adjuntar imágenes de comprobantes de pago para validación.
      - Los propietarios deben poder validar los pagos utilizando la imagen proporcionada por los inquilinos.
@@ -67,7 +75,9 @@ Basándome en los objetivos proporcionados, puedo ayudarte a derivar algunos req
      - La validación de pagos debe realizarse de manera oportuna.
 
 4. **Proporcionar un Detalle Transparente del Cálculo de la Renta Final:**
+
    - **Requisitos Funcionales:**
+
      - La plataforma debe mostrar un desglose claro del cálculo de la renta final para cada inquilino.
      - Debe incluir costos fijos (agua y cuarto) y detalles del consumo eléctrico individualizado.
      - Los inquilinos deben tener fácil acceso a esta información.
@@ -77,20 +87,20 @@ Basándome en los objetivos proporcionados, puedo ayudarte a derivar algunos req
      - Los datos de consumo eléctrico deben actualizarse de manera regular para reflejar la situación actual.
 
 5. **Gestionar la disponibilidad de habitaciones:**
+
    - **Requisitos Funcionales:**
      - Los propietarios deben poder actualizar la disponibilidad de sus habitaciones fácilmente.
      - La plataforma debe enviar notificaciones oportunas a los propietarios sobre solicitudes de alquiler y cambios en la disponibilidad.
-   
    - **Requisitos No Funcionales:**
      - Las notificaciones deben ser entregadas de manera rápida y confiable.
      - La interfaz de gestión de disponibilidad debe ser intuitiva para una fácil administración.
-    
 
 ### Desarrollo:
 
 **Tecnologías Utilizadas:**
 
 - **Frontend:**
+
   - React con Next.js para una experiencia web eficiente y reactiva.
   - Chakra UI como biblioteca UI centrada en la visualización de información de manera responsiva.
 
@@ -107,16 +117,20 @@ Basándome en los objetivos proporcionados, puedo ayudarte a derivar algunos req
 **Módulos y Funcionalidades Clave:**
 
 1. **Historial de Alquiler:**
+
    - Implementación de un módulo para que los inquilinos revisen su historial detallado de alquiler.
-  
+
 2. **Generación Automática de Comprobantes:**
+
    - Desarrollo de un módulo que permita a los inquilinos generar comprobantes de pago de manera automática.
 
 3. **Sistema de Pago a través de Códigos QR:**
+
    - Integración de códigos QR (Yape o Plin) para transacciones de alquiler.
    - Validación de pagos mediante imágenes de comprobantes.
 
 4. **Detalle Transparente del Cálculo de Renta:**
+
    - Desarrollo de un módulo que muestre un desglose claro del cálculo de la renta final para cada inquilino.
 
 5. **Gestión de Disponibilidad de Habitaciones:**
